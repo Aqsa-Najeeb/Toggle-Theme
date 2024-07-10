@@ -1,0 +1,43 @@
+
+.Dark
+{
+    --text-color:white;
+    --bg-color: black;
+    --btn-bgcolor:white;
+    --btn-color:black;
+
+}
+
+.Light
+{
+    --text-color:black;
+    --bg-color: white;
+    --btn-bgcolor:black;
+    --btn-color:white;
+}
+
+body
+{
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+p
+{
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 130px;
+}
+
+button
+{
+    padding: 20px 26px;
+    background-color: var(--btn-bgcolor);
+    color: var(--btn-color);
+    border: none;
+    margin: 0 310px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 45px;
+}
